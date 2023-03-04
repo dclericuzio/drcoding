@@ -32,8 +32,20 @@
     -webkit-text-stroke: 1px white;
   }
 
-  .shadow-custom1{
+  .shadow-customwa{
     border-radius: 50%;
-    box-shadow: 0 0 50px #ccc;
+    box-shadow: 0 0 10px 5px rgb(0 114 50 / 50%);
+  }
+
+  .custombutton1{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+  }
+
+  .custombutton1:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(24, 226, 145, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
   }
 }

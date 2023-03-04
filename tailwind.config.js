@@ -6,6 +6,9 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    backgroundImage:{
+      'bghome':"url('../public/home/bannerhome.webp')"
+    },
     screens: {
       'xs': '320px',
 
@@ -21,6 +24,7 @@ module.exports = {
     },
     fontFamily: {
       "dmsans": ["DM Sans", 'sans-serif'],
+      "cormorant": ["Cormorant", 'sans-serif']
     },
     extend:{
       animation:{

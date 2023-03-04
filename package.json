@@ -11,9 +11,11 @@
   "dependencies": {
     "@fortawesome/fontawesome-pro": "^6.2.1",
     "@next/font": "13.1.6",
+    "countup.js": "^2.4.2",
     "next": "13.1.6",
     "prop-types": "^15.8.1",
     "react": "18.2.0",
+    "react-countup": "^6.4.1",
     "react-dom": "18.2.0",
     "react-lottie": "^1.2.3"
   },

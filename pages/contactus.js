@@ -1,9 +1,9 @@
 import landingpage from "../layouts/landingpage"
 
-export default function kontak() {
+export default function contactus() {
   return (
     <div>kontak</div>
   )
 }
 
-kontak.layout = landingpage
+contactus.layout = landingpage

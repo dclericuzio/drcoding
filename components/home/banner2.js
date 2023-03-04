@@ -1,21 +1,35 @@
 import React from 'react'
 
 export default function banner2() {
+
+    const work =[
+        {title: 'East Cruise', content: 'Travel Web', image: './1.png'},
+        {title: 'House Plant', content: 'Travel Web', image: './1.png'},
+        {title: 'CV IBM', content: 'Corporate Web', image: './1.png'},
+        {title: 'PT Sar International', content: 'Corporate Web', image: './1.png'},
+        {title: 'KAYOO', content: 'Landing Page', image: './1.png'}
+    ]
+
   return (
-    <div className='w-full font-dmsans pb-32 lg:pb-44'>
-        <div className='max-w-7xl flex flex-col-reverse lg:flex-row mx-auto'>
-            <div className='lg:max-w-[50%] w-full'>
-                <img src='./about.svg' alt='...' className='w-full'/>
-            </div>
-            <div className='lg:max-w-[50%] w-full'>
-                <h1 className='text-center lg:text-left pt-10 text-[25px] sm:text-[30px] md:text-[35px] font-[500] text-black'>Tentang <span className='mx-2 outline outline-2 outline-offset-4'> <span className='bg-black text-white px-5'>DR</span> <span className='mr-2'>CODING</span></span> ?</h1>
-                <h1 className='text-center lg:text-left px-4 lg:px-0 pt-10 mx-auto font-[400] text-[12px] sm:text-[14px] md:text-[16px] text-[#7d7d7d]'>DR CODING adalah sebuah vendor yang melayanani jasa pembuatan website, aplikasi mobile android, ios dan layanan IT lainnya. DR CODING menawarkan solusi dibidang IT khususnya website dan aplikasi yang dikerjakan oleh team yang terdiri dari developer berasal dari berbagai negara yang telah berpengalaman lebih dari 5 tahun di bidangnya.</h1>
-                <div className='pt-10 flex flex-row justify-center lg:justify-start space-x-4'>
-                    <i class="fa-regular fa-browser text-[40px] sm:text-[50px] fa-fw"></i>
-                    <i class="fa-brands fa-android text-[40px] sm:text-[50px] fa-fw"></i>
-                    <i class="fa-brands fa-apple text-[40px] sm:text-[50px] fa-fw"></i>
-                    <i class="fa-solid fa-cart-shopping text-[40px] sm:text-[50px] fa-fw"></i>
-                    <i class="fa-solid fa-boxes-stacked text-[40px] sm:text-[50px] fa-fw"></i>
+    <div className='bg-[#ffffff] w-full py-20'>
+        <div className='max-w-full w-[90%] flex flex-col mx-auto'>
+            <h1 className='font-cormorant text-[40px] font-[500] text-[#333333'>Featured works</h1>
+
+            <div className='min-h-fit w-full mx-auto mt-10'>
+                <div className=' overflow-y-hidden snap-x flex space-x-3 overflow-scroll scrollbar-hide p-3'>
+                    {work.map((works, index) => {
+                        return(
+                            <div key={index} className="bg-[#d9d9d9] bg-opacity-50 backdrop-blur-xl rounded-[20px] cursor-pointer hover:scale-105 transform transition duration-300 ease-out justify-center flex">
+                                <div className='flex flex-col md:p-4'>
+                                    <h1 className='text-center font-[700] text-[25px] text-[#333333'>{works.title}</h1>
+                                    <h1 className='text-center font-[400] text-[14px] text-[#666666'>{works.content}</h1>
+                                    <div className="relative w-[390px]">
+                                        <img src={`${works.image}`} alt='...' className='h-[250px] snap-center'/>
+                                    </div>
+                                </div>
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
         </div>

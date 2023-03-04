@@ -1,9 +1,9 @@
 import landingpage from "../layouts/landingpage"
 
-export default function portofolio() {
+export default function work() {
   return (
     <div>portofolio</div>
   )
 }
 
-portofolio.layout = landingpage
+work.layout = landingpage
