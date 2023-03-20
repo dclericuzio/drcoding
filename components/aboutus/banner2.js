@@ -26,7 +26,7 @@ export default function banner2() {
                             <a href='#'><button className='custombutton1 cursor-pointer px-7 py-3 bg-[#f3f3f3] rounded-full font-dmsans mt-2'>Start project with us</button></a>
                         </div>
                         <div className='w-full md:w-[calc(100%/2)] mt-4 md:mt-0'>
-                            <img src='./aboutus/approach.png' alt='' className='mx-auto'/>
+                            <img src='./aboutus/approach.png' alt='...' className='mx-auto'/>
                         </div>
                     </div>
                 </div>
