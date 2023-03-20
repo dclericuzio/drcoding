@@ -1,6 +1,4 @@
 import React from 'react'
-import Lottie from 'react-lottie';
-import animationData from '../../assets/lottie/developers-team.json'
 
 export default function banner1() {
 
