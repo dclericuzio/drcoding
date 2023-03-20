@@ -19,7 +19,7 @@ export default function banner3() {
                 {point.map((points, index)=>{
                     return(
                         <div className='flex flex-row items-center gap-4' key={index}>
-                            <div className='w-[50px] h-[50px] flex justify-center items-center m-2 bg-[#d9d9d9] rounded-full'>
+                            <div className='w-[50px] h-[50px] flex justify-center items-center m-2 bg-[#ebebeb] rounded-full custombutton1'>
                                 <i class={`fa-regular ${points.fa} justify-center text-[20px] text-[#333333]`}></i>
                             </div>
                             <div className='w-[85%] md:w-[95%] flex flex-col font-dmsans'>
@@ -33,6 +33,12 @@ export default function banner3() {
 
         </div>
     </div>
+
+    //#182A41
+    //#55B98B
+    //#676A73
+    //#FFFFFF
+
     // <div className='w-full font-dmsans pb-32 lg:pb-44'>
     //     <div className='max-w-7xl flex flex-col lg:flex-row mx-auto'>
     //         <div className='lg:max-w-[50%] w-full text-center lg:text-start'>

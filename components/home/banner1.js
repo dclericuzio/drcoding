@@ -3,14 +3,21 @@ import Lottie from 'react-lottie';
 import animationData from '../../assets/lottie/developers-team.json'
 
 export default function banner1() {
-    const defaultOptions = {
-        loop: true,
-        autoplay: true,
-        animationData: animationData,
-        rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice"
-        }
-    }
+
+    // const defaultOptions = {
+    //     loop: true,
+    //     autoplay: true,
+    //     animationData: animationData,
+    //     rendererSettings: {
+    //         preserveAspectRatio: "xMidYMid slice"
+    //     }
+    // }
+
+    //#182A41
+    //#55B98B
+    //#676A73
+    //#FFFFFF
+
   return (
     <div className='w-full min-h-min pt-16'>
         <div className='max-w-full w-full flex flex-col mx-auto'>

@@ -3,11 +3,11 @@ import React from 'react'
 export default function banner2() {
 
     const work =[
-        {title: 'East Cruise', content: 'Travel Web', image: './1.png'},
-        {title: 'House Plant', content: 'Travel Web', image: './1.png'},
-        {title: 'CV IBM', content: 'Corporate Web', image: './1.png'},
-        {title: 'PT Sar International', content: 'Corporate Web', image: './1.png'},
-        {title: 'KAYOO', content: 'Landing Page', image: './1.png'}
+        {title: 'East Cruise', content: 'Travel Web', image: './home/1.png'},
+        {title: 'House Plant', content: 'Travel Web', image: './home/1.png'},
+        {title: 'CV IBM', content: 'Corporate Web', image: './home/1.png'},
+        {title: 'PT Sar International', content: 'Corporate Web', image: './home/1.png'},
+        {title: 'KAYOO', content: 'Landing Page', image: './home/1.png'}
     ]
 
   return (

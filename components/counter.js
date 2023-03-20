@@ -26,7 +26,7 @@ const CounterNew = (props) => {
   });
 
   return (
-    <div className="text-[60px] font-dmsans">
+    <div className="text-[80px] font-dmsans">
       <div ref={countUpRef}></div>
     </div>
   );

@@ -8,9 +8,10 @@ function MobileNav({open, setOpen}) {
         <div className={`absolute z-50 top-0 left-0 min-h-screen w-screen bg-white transform ${open ? "-translate-y-0" : "-translate-y-full"} transition-transform duration-300 ease-in-out filter  `}>
            
             <ul className="flex flex-col justify-center items-center mt-28 font-dmsans text-2xl font-bold space-y-8">
+                <a href='/'><li className={router.asPath == "/" ? "border-b-[2px] border-[#000]" : ""}>Home</li></a>
                 <a href='/aboutus'><li className={router.asPath == "/aboutus" ? "border-b-[2px] border-[#000]" : ""}>About Us</li></a>
                 <a href='/service'><li className={router.asPath == "/service" ? "border-b-[2px] border-[#000]" : ""}>Service</li></a>
-                <a href='/work'><li className={router.asPath == "/work" ? "border-b-[2px] border-[#000]" : ""}>Work</li></a>
+                <a href='/work'><li className={router.asPath == "/work" ? "border-b-[2px] border-[#000]" : ""}>Out Work</li></a>
                 <a href='/contactus'><li className={router.asPath == "/contactus" ? "border-b-[2px] border-[#000]" : ""}>Contact Us</li></a>
             </ul>  
         </div>
@@ -53,7 +54,7 @@ export default function navigationBar() {
 
   return (
     <nav 
-        className='w-full font-cormorant fixed z-50 bg-white shadow-lg py-2 bg-[#f1f1f1]' 
+        className='w-full font-cormorant fixed z-50 bg-white shadow-lg py-2' 
         // style={{
         //     background: `rgba(255, 255, 255, ${backgroundTransparacy})`,
         //     boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
@@ -64,13 +65,15 @@ export default function navigationBar() {
             {/* <h1 className='items-center font-[700] text-2xl font-dmsans'>DANTE</h1> */}
             {/* <img src="./logo.png" className='h-8 md:h-12 w-auto' alt='logo'/> */}
             <a href='/'>
-                <span className='font-dmsans outline outline-2 outline-offset-2'><span className='bg-black text-white px-5'>DR</span> <span className='mr-2'>CODING</span></span>
+              <img src='./logo.png'/>
+                {/* <span className='font-dmsans outline outline-2 outline-offset-2'><span className='bg-black text-white px-5'>DR</span> <span className='mr-2'>CODING</span></span> */}
             </a>
             <>
                 <ul className="font-cormorant hidden md:flex flex-row items-center space-x-8 text-[16px] font-[600] cursor-pointer">
+                    <a href="/"><li className={router.asPath == "/" ? "border-b-[2px] border-[#000]" : "border-b-[2px] border-transparent hover:border-[#000] duration-200 ease-in"}>Home</li></a>
                     <a href="/aboutus"><li className={router.asPath == "/aboutus" ? "border-b-[2px] border-[#000]" : "border-b-[2px] border-transparent hover:border-[#000] duration-200 ease-in"}>About Us</li></a>
                     <a href="/service"><li className={router.asPath == "/service" ? "border-b-[2px] border-[#000]" : "border-b-[2px] border-transparent hover:border-[#000] duration-200 ease-in"}>Service</li></a>
-                    <a href="/work"><li className={router.asPath == "/work" ? "border-b-[2px] border-[#000]" : "border-b-[2px] border-transparent hover:border-[#000] duration-200 ease-in"}>Work</li></a>
+                    <a href="/work"><li className={router.asPath == "/work" ? "border-b-[2px] border-[#000]" : "border-b-[2px] border-transparent hover:border-[#000] duration-200 ease-in"}>Our Work</li></a>
                     <a href="/contactus"><li className={router.asPath == "/contactus" ? "border-b-[2px] border-[#000]" : "border-b-[2px] border-transparent hover:border-[#000] duration-200 ease-in"}>Contact Us</li></a>
                 </ul>  
             </>
