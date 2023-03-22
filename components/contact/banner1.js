@@ -9,8 +9,8 @@ export default function banner1() {
                 <div className='text-center w-full mt-[]'>
                     <div className='flex flex-col md:flex-row md:space-x-8 mt-[80px] md:mt-[150px]'>
                         <div className='w-full md:w-[50%] flex flex-col mt-20'>
-                            <h1 className='md:w-[70%] text-center md:text-start text-[#333333] text-[40px] xs:text-[45px] sm:text-[60px] md:text-[72px] font-cormorant md:leading-[80px]'>Let's talk about your business?</h1>
-                            <h1 className='md:w-[50%] text-[#666666] text-center md:text-start text-[14px] mt-4 md:mt-8 md:leading-[25px] font-dmsans'>Let’s have some talk and make something great together!</h1>
+                            <h1 className='md:w-[70%] text-center md:text-start text-[#333333] text-[40px] xs:text-[45px] sm:text-[60px] md:text-[72px] font-cormorant md:leading-[80px]'>We're here for you</h1>
+                            <h1 className='md:w-[50%] text-[#666666] text-center md:text-start text-[14px] mt-4 md:mt-8 md:leading-[25px] font-dmsans'>Getting Inspired? Let's talk and craft something great together!</h1>
                         </div>
                         <div className='pt-8 md:pt-0 px-4 md:px-0 w-full md:w-[50%]'>
                             <form className='flex flex-col space-y-10'>

@@ -2,37 +2,47 @@ import React from 'react'
 
 export default function banner2() {
 
-    const work =[
-        {title: 'East Cruise', content: 'Travel Web', image: './home/1.png'},
-        {title: 'House Plant', content: 'Travel Web', image: './home/1.png'},
-        {title: 'CV IBM', content: 'Corporate Web', image: './home/1.png'},
-        {title: 'PT Sar International', content: 'Corporate Web', image: './home/1.png'},
-        {title: 'KAYOO', content: 'Landing Page', image: './home/1.png'}
+    const point = [
+        {title:'Your all-in-one Services', content:'We integrate our research, design, and engineering to deliver engaging platform so you can build and scale your business with confidence.'},
+        {title:'Sales made easy', content:'Explore which features you want to add - whether creating your own online store, service businesses, blogs, or adding your favorite third-party extensions.'},
+        {title:'Market your business', content:'Manage your business like a pro. We‘ll help you to capture leads, get reports and insights to retain customers and grow your audience.'},
     ]
 
   return (
-    <div className='bg-[#ffffff] w-full py-20'>
-        <div className='max-w-full w-[90%] flex flex-col mx-auto'>
-            <h1 className='font-cormorant text-[40px] font-[500] text-[#333333'>Featured works</h1>
-
-            <div className='min-h-fit w-full mx-auto mt-10'>
-                <div className=' overflow-y-hidden snap-x flex space-x-3 overflow-scroll scrollbar-hide p-3'>
-                    {work.map((works, index) => {
-                        return(
-                            <div key={index} className="bg-[#d9d9d9] bg-opacity-50 backdrop-blur-xl rounded-[20px] cursor-pointer hover:scale-105 transform transition duration-300 ease-out justify-center flex">
-                                <div className='flex flex-col md:p-4'>
-                                    <h1 className='text-center font-[700] text-[25px] text-[#333333'>{works.title}</h1>
-                                    <h1 className='text-center font-[400] text-[14px] text-[#666666'>{works.content}</h1>
-                                    <div className="relative w-[390px]">
-                                        <img src={`${works.image}`} alt='...' className='h-[250px] snap-center'/>
-                                    </div>
-                                </div>
+    <div className='w-full min-h-min pb-16'>
+        <div className='max-w-full w-full flex flex-col mx-auto'>
+            <div className='w-full h-fit px-4 md:px-16 lg:px-28'>
+                <div className='text-center w-full mt-[]'>
+                    <div className='flex flex-col md:flex-row md:space-x-8 mt-[80px] md:mt-[150px]'>
+                        <div className='w-full md:w-[40%] flex flex-col'>
+                            <h1 className='font-cormorant text-[40px] font-[500] text-[#333333] text-start'>Elevate your business where it needs to go.</h1>
+                            <h1 className='text-[#666666] text-start text-[14px] mt-4  leading-7 font-dmsans'>We integrate our research, design, and engineering <br/> to deliver engaging digital products so you can build and <br/> scale your business with confidence.</h1>
+                            <div className='h-[3px] w-[150px] bg-[#17A683] mt-6'></div>      
+                        </div>
+                        
+                        <div className='w-full md:w-[60%] md:mt-0 mt-8'>
+                            <div className='flex flex-col mt-0 space-y-12 md:ml-10'>
+                                {point.map((points, index)=>{
+                                    return(
+                                        <div className='flex flex-row' key={index}>
+                                            <div className=''>
+                                                <div className='w-[60px] h-[60px] flex justify-center items-center m-2 bg-[#D9D9D9] rounded-full'></div>
+                                            </div>
+                                            <div className='ml-4  flex flex-col font-dmsans text-start leading-7'>
+                                                <h1 className='font-[600] text-[18px] text-[#333333] mt-2'>{points.title}</h1>
+                                                <h1 className='font-[400] text-[16px] text-[#666666]'>{points.content}</h1>
+                                            </div>
+                                        </div>
+                                    )
+                                })}
                             </div>
-                        )
-                    })}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+   
   )
 }

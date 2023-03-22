@@ -12,11 +12,12 @@ export default function footer() {
             <div className='flex space-x-4 justify-center my-5 md:my-0'>
                 <i class="fa-brands fa-facebook text-[30px] fa-fw text-[#f3f3f3] cursor-pointer"></i>
                 <i class="fa-brands fa-instagram text-[30px] fa-fw text-[#f3f3f3] cursor-pointer"></i>
-                <i class="fa-brands fa-whatsapp text-[30px] fa-fw text-[#f3f3f3] cursor-pointer"></i>
-                <i class="fa-regular fa-envelope text-[30px] fa-fw text-[#f3f3f3] cursor-pointer"></i>
                 <i class="fa-solid fa-map-pin text-[30px] fa-fw text-[#f3f3f3] cursor-pointer"></i>
+                {/* <i class="fa-brands fa-whatsapp text-[30px] fa-fw text-[#f3f3f3] cursor-pointer"></i>
+                <i class="fa-regular fa-envelope text-[30px] fa-fw text-[#f3f3f3] cursor-pointer"></i>
+                <i class="fa-solid fa-map-pin text-[30px] fa-fw text-[#f3f3f3] cursor-pointer"></i> */}
             </div>
-            <h1 className='md:hidden block text-center text-[12px] sm:text-[14px] text-[#f3f3f3]'>© 2023 DR CODING. All Rights Resever By DR CODING Team</h1>
+            <h1 className='md:hidden block text-center text-[12px] sm:text-[14px] text-[#f3f3f3]'>© 2023 DR CODING. All Rights Reseved By DR CODING Team</h1>
         </div>
     </div>
   )

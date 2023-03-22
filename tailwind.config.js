@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     backgroundImage:{
       'bghome':"url('../public/home/bannerhome.webp')",
-      'customshade': 'linear-gradient(to bottom,rgba(221,221,221,0) 0%,rgba(232,232,232,.8) 100%)',
-      'customshade1': 'linear-gradient(to bottom,rgba(16,38,59) 0%,rgba(23,27,36) 100%)'
+      'custombggrey': 'linear-gradient(to bottom,rgba(221,221,221,0) 0%,rgba(232,232,232) 100%)',
+      'custombgblue': 'linear-gradient(to bottom,rgba(16,38,59) 0%,rgba(23,27,36) 100%)'
     },
     screens: {
       'xs': '320px',
