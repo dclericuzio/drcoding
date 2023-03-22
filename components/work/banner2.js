@@ -3,7 +3,7 @@ import React from 'react'
 export default function banner2() {
   return (
     <div className='w-full pt-28 md:pt-32'>
-        <div className='max-w-full lg:w-[90%] mx-auto lg:px-28'>
+        <div className='max-w-[1600px] lg:w-[90%] mx-auto lg:px-28'>
             <div className='gap-8 grid grid-cols-1 md:grid-cols-2 p-4'>
                 <div className='flex flex-col'>
                     <img src='./work/houseplant.png' alt='houseplant' className=''/>

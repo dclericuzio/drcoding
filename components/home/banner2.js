@@ -3,13 +3,13 @@ import React from 'react'
 export default function banner2() {
 
     const point = [
-        {title:'Your all-in-one Services', content:'We integrate our research, design, and engineering to deliver engaging platform so you can build and scale your business with confidence.'},
+        {title:'Your all-in-one Services', content:'We integrate our research, design, and engineering to deliver engaging digital product so you can build and scale your business with confidence.'},
         {title:'Sales made easy', content:'Explore which features you want to add - whether creating your own online store, service businesses, blogs, or adding your favorite third-party extensions.'},
         {title:'Market your business', content:'Manage your business like a pro. We‘ll help you to capture leads, get reports and insights to retain customers and grow your audience.'},
     ]
 
   return (
-    <div className='w-full min-h-min pb-16'>
+    <div className='w-full min-h-min pb-16 max-w-[1600px] mx-auto'>
         <div className='max-w-full w-full flex flex-col mx-auto'>
             <div className='w-full h-fit px-4 md:px-16 lg:px-28'>
                 <div className='text-center w-full mt-[]'>

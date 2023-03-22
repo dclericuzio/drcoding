@@ -10,7 +10,7 @@ export default function banner3() {
 
   return (
     <div className='bg-[#ffffff] w-full py-20'>
-        <div className='max-w-full w-[90%] flex flex-col mx-auto'>
+        <div className='max-w-[1600px] w-[90%] flex flex-col mx-auto'>
             <h1 className='font-cormorant text-[40px] font-[500] text-[#333333'>What we do</h1>
             <h1 className='text-[#666666] text-[14px] mt-3'>We help your business through digital product <br/> that are stand-alone or connect to physical products and services.</h1>
             <div className='h-[3px] w-[150px] bg-[#17A683] mt-6'></div>

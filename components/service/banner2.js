@@ -8,7 +8,7 @@ export default function banner2() {
     ]
   return (
     <div className='w-full min-h-min mt-28 mb-16 md:py-28'>
-    <div className='max-w-full w-full flex flex-col mx-auto'>
+    <div className='max-w-[1600px] w-full flex flex-col mx-auto'>
         <div className='w-full h-fit px-4 lg:px-28'>
             <div className='text-center w-full mt-[]'>
                 <div className='items-center flex flex-col md:flex-row md:space-x-8'>

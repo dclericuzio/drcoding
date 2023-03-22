@@ -3,8 +3,8 @@ import React from 'react'
 export default function banner1() {
    
   return (
-    <div className='w-full min-h-min py-16'>
-        <div className='max-w-full w-full flex flex-col mx-auto'>
+    <div className='w-full min-h-min pt-16'>
+        <div className='max-w-[1600px] h-screen w-full flex flex-col mx-auto'>
             <div className='w-full h-fit px-4 md:px-16 lg:px-28'>
                 <div className='text-center w-full mt-[]'>
                     <div className='flex flex-col md:flex-row md:space-x-8 mt-[80px] md:mt-[150px]'>
@@ -35,7 +35,7 @@ export default function banner1() {
                                     <textarea required className="w-full h-32 bg-[#F2F2F2] focus:border-[#088466] rounded-[5px] p-2" name='message' placeholder='Tell us about your problem so we can help you'/>
                                 </label>
         
-                                <button className='text-white custombutton1 cursor-pointer px-7 py-3 bg-[#088466] rounded-full font-dmsans mt-10 w-[30%]'>Submit</button>
+                                <button className='text-white custombuttongreen cursor-pointer px-7 py-3 bg-[#088466] rounded-full font-dmsans mt-10 w-[30%]'>Submit</button>
                             </form>
                         </div>
                     </div>

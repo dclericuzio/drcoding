@@ -10,7 +10,7 @@ export default function banner2() {
     ]
 
   return (
-    <div className='w-full min-h-min pb-28 md:py-28'>
+    <div className='max-w-[1600px] w-full min-h-min pb-28 md:py-28 mx-auto'>
         <div className='max-w-full w-full flex flex-col mx-auto'>
             <div className='w-full h-fit px-4 lg:px-28'>
                 <div className='text-center w-full mt-[]'>

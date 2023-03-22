@@ -31,7 +31,7 @@ export default function banner4() {
   return (
     <div className='w-full font-dmsans'>
         <div className='bg-custombggrey py-10'>
-            <div className='whitespace-nowrap max-w-full w-[70%] flex flex-col md:flex-row mx-auto justify-between'>
+            <div className='max-w-[1600px] whitespace-nowrap w-[70%] flex flex-col md:flex-row mx-auto justify-between'>
                 {datas.map((data, i) => (
                     <div className='items-center justify-center flex flex-col p-4'>
                         <CounterNew data={data} key={i}/>

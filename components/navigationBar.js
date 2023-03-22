@@ -5,7 +5,7 @@ function MobileNav({open, setOpen}) {
 
     const router = useRouter()
     return (
-        <div className={`absolute z-50 top-0 left-0 min-h-screen w-screen bg-white transform ${open ? "-translate-y-0" : "-translate-y-full"} transition-transform duration-300 ease-in-out filter  `}>
+        <div className={`md:hidden absolute z-50 top-0 left-0 min-h-screen w-screen bg-white transform ${open ? "-translate-y-0" : "-translate-y-full"} transition-transform duration-300 ease-in-out`}>
            
             <ul className="flex flex-col justify-center items-center mt-28 font-dmsans text-2xl font-bold space-y-8">
                 <a href='/aboutus'><li className={router.asPath == "/aboutus" ? "border-b-[2px] border-[#088466]" : "border-b-[2px] border-transparent hover:border-[#088466] duration-200 ease-in"}>About Us</li></a>
