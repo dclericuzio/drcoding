@@ -68,6 +68,7 @@
   .test{
     border-radius: 25px;
     background: #E8E8E8;
-    box-shadow:  15px 15px 25px #c2c2c2, -15px -15px 25px #ffffff;
+    box-shadow: 7px 7px 14px #ebebeb, -7px -7px 14px #ebebeb;
+
   }
 }

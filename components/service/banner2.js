@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function banner2() {
     const text = [
-        {num:'1', title:'Consultation', content:'Let’s have a great discussion to find your business needs, until turn it out into solution through design process'},
-        {num:'2', title:'Development', content:'Not only aesthetically pleasing, we also deliver good quality product'},
+        {num:'1', title:'Consultation', content:'Let’s have a great discussion to find your business needs, until turn it out into solution through design process.'},
+        {num:'2', title:'Development', content:'Combining our UI/UX expertise, we are creating you a platform that is easy to use, visually appealing, and delivering a positive experience for the users.'},
         {num:'3', title:'Maintenance', content:'Everything in the world require maintenance, doesn’t it? Don’t worry we got you!'}
     ]
   return (

@@ -17,7 +17,7 @@ export default function banner2() {
                     <div className='items-center flex flex-col md:flex-row md:space-x-8'>
                         <div className='w-full md:w-[calc(100%/2)] text-start'>
                             <h1 className='mt-3 md:mt-0 font-cormorant text-[40px] font-[500] text-[#333333]'>Our approach</h1>
-                            <h1 className='mt-3 font-[400] text-[14px] sm:text-[16px] text-[#666666] leading-7'>As Creative Digital Lab we do our work through four cyclical stages that repeat to the first step once one cycle finishes.</h1>
+                            <h1 className='mt-3 font-[400] text-[14px] sm:text-[16px] text-[#666666] leading-7'>At DR Coding, we do our work through four cyclical stages that repeat to the first step once one cycle finishes.</h1>
                             <div className='h-[3px] w-[150px] bg-[#17A683] mt-6'></div>
                             
                             <div className='my-6'>
@@ -41,7 +41,7 @@ export default function banner2() {
                             </div>
                         </div>
                         <div className='w-full md:w-[calc(100%/2)] mt-4 md:mt-0'>
-                            <img src='./aboutus/approach.png' alt='...' className='mx-auto'/>
+                            <img src='./aboutus/approach.svg' alt='...' className='mx-auto'/>
                         </div>
                     </div>
                 </div>

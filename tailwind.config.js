@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     backgroundImage:{
       'bghome':"url('../public/home/bannerhome.webp')",
-      'custombggrey': 'linear-gradient(to bottom,rgba(221,221,221,0) 0%,rgba(232,232,232) 100%)',
+      'bglogin':"url('../public/login/loginbanner.jpg')",
+      'custombggrey': 'linear-gradient(to bottom,rgba(221,221,221,0) 0%,rgba(200,200,200) 100%)',
       'custombgblue': 'linear-gradient(to bottom,rgba(16,38,59) 0%,rgba(23,27,36) 100%)'
     },
     screens: {
