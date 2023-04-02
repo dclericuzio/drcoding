@@ -9,8 +9,8 @@ export default function banner3() {
                 <div className='flex flex-row justify-center items-center mt-14 gap-4'>
                     <div className='h-[65px] w-[65px] rounded-full bg-[#D9D9D9]'></div>
                     <div className='flex flex-col'>
-                        <h1 className='font-[500] text-[16px] sm:text-[16px] text-[#333333]'>Handy Wicaksono</h1>
-                        <h1 className='font-[400] text-[14px] sm:text-[16px] text-[#666666]'>CEO of House Plant</h1>
+                        <h1 className='font-[600] text-[18px] text-[#333333] font-dmsans'>Handy Wicaksono</h1>
+                        <h1 className='font-[400] text-[16px] text-[#666666] font-dmsans'>CEO of House Plant</h1>
                     </div>
                 </div>
             </div>

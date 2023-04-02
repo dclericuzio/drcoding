@@ -58,7 +58,7 @@ export default function banner1() {
                                 </label>
                                 <label class="w-full">
                                     <h1 className='text-[#666666] text-start text-[14px] font-dmsans'>Type of project</h1>
-                                    <select onChange={setValue} name='project' className='w-full rounded-[5px] p-2 bg-[#F2F2F2] focus:border-[#088466]'>
+                                    <select onChange={setValue} name='project' className='w-full rounded-[5px] p-2 bg-[#F2F2F2] focus:border-[#088466] font-dmsans'>
                                         <option hidden>Select projects</option>
                                         <option value={'Website'}>Website</option>
                                         <option value={'Mobile App'}>Mobile App</option>
@@ -67,7 +67,7 @@ export default function banner1() {
                                 </label>
                                 <label className= "relative">
                                     <h1 className='text-[#666666] text-start text-[14px] font-dmsans'>Leave us a message, please :)</h1>
-                                    <textarea required className="w-full h-32 bg-[#F2F2F2] focus:border-[#088466] rounded-[5px] p-2" name='message' placeholder='Tell us about your problem so we can help you' onChange={setValue}/>
+                                    <textarea required className="w-full h-32 bg-[#F2F2F2] focus:border-[#088466] rounded-[5px] p-2 font-dmsans" name='message' placeholder='Tell us about your problem so we can help you' onChange={setValue}/>
                                 </label>
         
                                 <button type='submit' className='text-white custombuttongreen cursor-pointer px-7 py-3 bg-[#088466] rounded-full font-dmsans mt-10 w-[30%]'>Submit</button>

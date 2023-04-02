@@ -35,13 +35,13 @@ export default function banner4() {
                 {datas.map((data, i) => (
                     <div className='items-center justify-center flex flex-col p-4'>
                         <CounterNew data={data} key={i}/>
-                        <h1 className='text-center font-[400] text-[14px] md:text-[20px] text-[#7d7d7d]'>{data.text}</h1>
+                        <h1 className='font-dmsans text-center font-[400] text-[14px] md:text-[20px] text-[#7d7d7d]'>{data.text}</h1>
                     </div>
                 ))}
                  {datas2.map((data, i) => (
                     <div className='items-center justify-center flex flex-col p-4'>
-                        <div className='flex items-center'><CounterNew data={data} key={i}/><span className='ml-2 text-[50px]'>+</span></div>
-                        <h1 className='text-center font-[400] text-[14px] md:text-[20px] text-[#7d7d7d]'>{data.text}</h1>
+                        <div className='flex items-center'><CounterNew data={data} key={i}/><span className='ml-2 text-[50px] font-dmsans'>+</span></div>
+                        <h1 className='text-center font-[400] text-[14px] md:text-[20px] text-[#7d7d7d] font-dmsans'>{data.text}</h1>
                     </div>
                 ))}
             </div>

@@ -28,8 +28,8 @@ export default function banner2() {
                                             </div>
                                             <div className='w-[90%]'>
                                                 <div className=''>
-                                                    <h1 className='font-[600] text-[18px] text-[#333333]'>{texts.title}</h1>
-                                                    <h1 className='font-[400] text-[16px] text-[#666666] mt-4'>{texts.content}</h1>
+                                                    <h1 className='font-[600] text-[18px] text-[#333333] font-dmsans'>{texts.title}</h1>
+                                                    <h1 className='font-[400] text-[14px] text-[#666666] mt-4 font-dmsans'>{texts.content}</h1>
                                                 </div>
                                             </div>
                                         </div>

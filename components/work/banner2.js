@@ -1,52 +1,29 @@
 import React from 'react'
 
 export default function banner2() {
+
+    const porto = [
+        {img:'houseplant.png', company:'House Plant Hub', type:'Company Website'},
+        {img:'eck.png', company:'East Cruise', type:'Company Website'},
+        {img:'kayoo.png', company:'Kayoo', type:'Company Website'},
+        {img:'sar.png', company:'PT SAR INTERNATIONAL', type:'Company Website'},
+        {img:'ibm.png', company:'Indonesia Bisnis Mandiri', type:'Company Website'},
+    ]
   return (
     <div className='w-full pt-28 md:pt-32'>
         <div className='max-w-[1600px] lg:w-[90%] mx-auto lg:px-28'>
-            <div className='gap-8 grid grid-cols-1 md:grid-cols-2 p-4'>
-                <div className='flex flex-col'>
-                    <img src='./work/houseplant.png' alt='houseplant' className=''/>
-                    <div className='flex flex-row justify-between mt-4'>
-                        <h1 className='font-[600] text-[16px] sm:text-[18px] text-[#333333]'>PT SAR INTERNATIONAL</h1>
-                        <h1 className='font-[400] text-[14px] sm:text-[16px] text-[#666666]'>Company Website</h1>
-                    </div>
-                </div>
-                <div className='flex flex-col'>
-                    <img src='./work/kayoo.png' alt='houseplant' className=''/>
-                    <div className='flex flex-row justify-between mt-4'>
-                        <h1 className='font-[600] text-[16px] sm:text-[18px] text-[#333333]'>PT SAR INTERNATIONAL</h1>
-                        <h1 className='font-[400] text-[14px] sm:text-[16px] text-[#666666]'>Company Website</h1>
-                    </div>
-                </div>
-                <div className='flex flex-col'>
-                    <img src='./work/houseplant.png' alt='houseplant' className=''/>
-                    <div className='flex flex-row justify-between mt-4'>
-                        <h1 className='font-[600] text-[16px] sm:text-[18px] text-[#333333]'>PT SAR INTERNATIONAL</h1>
-                        <h1 className='font-[400] text-[14px] sm:text-[16px] text-[#666666]'>Company Website</h1>
-                    </div>
-                </div>
-                <div className='flex flex-col'>
-                    <img src='./work/kayoo.png' alt='houseplant' className=''/>
-                    <div className='flex flex-row justify-between mt-4'>
-                        <h1 className='font-[600] text-[16px] sm:text-[18px] text-[#333333]'>PT SAR INTERNATIONAL</h1>
-                        <h1 className='font-[400] text-[14px] sm:text-[16px] text-[#666666]'>Company Website</h1>
-                    </div>
-                </div>
-                <div className='flex flex-col'>
-                    <img src='./work/houseplant.png' alt='houseplant' className=''/>
-                    <div className='flex flex-row justify-between mt-4'>
-                        <h1 className='font-[600] text-[16px] sm:text-[18px] text-[#333333]'>PT SAR INTERNATIONAL</h1>
-                        <h1 className='font-[400] text-[14px] sm:text-[16px] text-[#666666]'>Company Website</h1>
-                    </div>
-                </div>
-                <div className='flex flex-col'>
-                    <img src='./work/kayoo.png' alt='houseplant' className=''/>
-                    <div className='flex flex-row justify-between mt-4'>
-                        <h1 className='font-[600] text-[16px] sm:text-[18px] text-[#333333]'>PT SAR INTERNATIONAL</h1>
-                        <h1 className='font-[400] text-[14px] sm:text-[16px] text-[#666666]'>Company Website</h1>
-                    </div>
-                </div>
+            <div className='gap-8 grid grid-cols-1 md:grid-cols-2 md:p-4'>
+                {porto.map((portos, index)=>{
+                    return(
+                        <div key={index} className='flex flex-col'>
+                            <img src={`./work/${portos.img}`} alt='houseplant' className='rounded-0 md:rounded-[20px]'/>
+                            <div className='flex flex-row justify-between mt-4 md:px-0 px-2'>
+                                <h1 className='font-[600] text-[16px] text-[#333333]'>{portos.company}</h1>
+                                <h1 className='font-[400] text-[16px] text-[#666666]'>{portos.type}</h1>
+                            </div>
+                        </div>
+                    )
+                })}
             </div>
         </div>
     </div>

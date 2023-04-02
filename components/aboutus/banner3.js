@@ -3,10 +3,10 @@ import React from 'react'
 export default function banner2() {
    
     const text = [
-        {num:'1', title:'Discover', content:'Understanding purpose and goals of your needs'},
-        {num:'2', title:'Define', content:'Defining digital strategy and solutions'},
-        {num:'3', title:'Deliver', content:'Implementing, testing, and delivering digital strategy and solutions'},
-        {num:'4', title:'Maintenance', content:'Ensuring the smooth functionality and experience of the digital product'},
+        {num:'1', title:'Discover', content:'Understanding the purpose and goals of your needs through researches and findings.'},
+        {num:'2', title:'Define', content:'Defining digital strategy and solutions of your platform.'},
+        {num:'3', title:'Deliver', content:'Crafting, analyze, testing, and delivering your platform.'},
+        {num:'4', title:'Maintenance', content:'Ensuring the smooth functionality and experience of the platform.'},
     ]
 
   return (
@@ -17,7 +17,7 @@ export default function banner2() {
                     <div className='items-center flex flex-col md:flex-row md:space-x-8'>
                         <div className='w-full md:w-[calc(100%/2)] text-start'>
                             <h1 className='mt-3 md:mt-0 font-cormorant text-[40px] font-[500] text-[#333333]'>Our approach</h1>
-                            <h1 className='mt-3 font-[400] text-[14px] sm:text-[16px] text-[#666666] leading-7'>At DR Coding, we do our work through four cyclical stages that repeat to the first step once one cycle finishes.</h1>
+                            <h1 className='mt-3 font-[400] text-[14px] text-[#666666] leading-7 font-dmsans'>At DR Coding, we do our work through four cyclical stages that repeat to the first step once one cycle finishes.</h1>
                             <div className='h-[3px] w-[150px] bg-[#17A683] mt-6'></div>
                             
                             <div className='my-6'>
@@ -31,8 +31,8 @@ export default function banner2() {
                                                     </div>    
                                                 </div>
                                                 <div className='ml-8'>
-                                                    <h1 className='font-[600] text-[18px] text-[#333333]'>{texts.title}</h1>
-                                                    <h1 className='font-[400] text-[16px] text-[#666666] mt-4'>{texts.content}</h1>
+                                                    <h1 className='font-[600] text-[18px] text-[#333333] font-dmsans'>{texts.title}</h1>
+                                                    <h1 className='font-[400] text-[14px] text-[#666666] mt-4 font-dmsans'>{texts.content}</h1>
                                                 </div>
                                             </div>
                                         )
