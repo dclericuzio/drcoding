@@ -8,6 +8,8 @@ export default function banner2() {
         {img:'kayoo.png', company:'Kayoo', type:'Company Website'},
         {img:'sar.png', company:'PT SAR INTERNATIONAL', type:'Company Website'},
         {img:'ibm.png', company:'Indonesia Bisnis Mandiri', type:'Company Website'},
+        {img:'jsk.png', company:'JAYA SAMUDRA KARUNIA GROUP', type:'Company Website'},
+        {img:'easycash.png', company:'PT Indonesia Fintopia Technology', type:'Company Website'},
     ]
   return (
     <div className='w-full pt-28 md:pt-32'>
