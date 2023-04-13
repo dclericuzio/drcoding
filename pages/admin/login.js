@@ -50,7 +50,6 @@ export default function login() {
         
         const req = await fetch('/api/user', {method: 'POST', body: JSON.stringify(field) });
         const res = await req.json();
-        
     
         if(res.status === 200){
             nookies.set(null, 'token', res.data)
@@ -59,7 +58,7 @@ export default function login() {
             setBgcolor("bg-green-500")
             setNotiftext(res.message)
             setTimeout(() => {
-                router.push('/admindashboard');
+                router.push('/admin/dashboard');
             }, 2000)
         }else{
           setSuccess(true);

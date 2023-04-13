@@ -41,9 +41,10 @@ export default function sideNavigationBar() {
 		class="w-[100px] flex flex-col items-center bg-white text-gray-700 shadow h-screen sticky top-0">
 
 		<div class="h-16 flex w-full justify-center items-center">
-			<a class="w-20 mx-auto" href="/admin/dashboard">
+			{/* <a class="w-20 mx-auto" href="/admin/dashboard">
                 <img src='../assets/logo.png' alt='logo' className='items-center'/>
-			</a>
+			</a> */}
+            <img src='./logo.png' alt='logo' className='items-center'/>
 		</div>
 		<ul className='w-full'>
             <li class={`${router.asPath == "/admin/dashboard" ? "bg-[#f3f3f3]" : "bg-none"} hover:bg-[#f3f3f3]`}>

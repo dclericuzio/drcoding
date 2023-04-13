@@ -33,7 +33,7 @@ export default function banner1() {
     }
    
   return (
-    <div className='w-full min-h-min py-16'>
+    <div className='w-full min-h-[90vh] p-16'>
         <div className='max-w-[1600px] h-fit w-full flex flex-col mx-auto'>
             <div className='w-full h-fit px-4 md:px-16 lg:px-28'>
                 <div className='text-center w-full mt-[]'>
@@ -67,7 +67,7 @@ export default function banner1() {
                                 </label>
                                 <label className= "relative">
                                     <h1 className='text-[#666666] text-start text-[14px] font-dmsans'>Leave us a message, please :)</h1>
-                                    <textarea required className="w-full h-32 bg-[#F2F2F2] focus:border-[#088466] rounded-[5px] p-2 font-dmsans" name='message' placeholder='Tell us about your problem so we can help you' onChange={setValue}/>
+                                    <textarea required className="w-full h-32 bg-[#F2F2F2] focus:border-[#088466] rounded-[5px] p-2 font-dmsans" name='message' placeholder='Tell us your problems so we can help you' onChange={setValue}/>
                                 </label>
         
                                 <button type='submit' className='text-white custombuttongreen cursor-pointer px-7 py-3 bg-[#088466] rounded-full font-dmsans mt-10 w-[30%]'>Submit</button>

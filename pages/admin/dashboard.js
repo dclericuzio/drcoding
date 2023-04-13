@@ -11,7 +11,9 @@ export async function getServerSideProps(ctx){
 
   const token = cookies.token;
 
-  if(!token){
+  console.log(token);
+
+  if(!token || token.length < 1){
 
     return{
         redirect:{
@@ -53,6 +55,8 @@ export default function dashboard() {
                 <li><a href="/admin/dashboard" class="text-[#088466] font-[400]">Dashboard</a></li>
             </ol>
         </nav>
+        
+
         <div className='w-full max-w-[90%] mx-auto p-10'>
                 <div className="max-h-[620px] relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded ">
                     <div className="rounded-t mb-0 px-4 py-3 border-0">
